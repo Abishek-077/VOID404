@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+.nyc_output/
+*.cover
+.coverage
+
+# Uploads
+uploads/
+temp/
+
+# Database
+*.db
+*.sqlite
+
+# Security
+reports/
+*.pem
+*.key
+!.github
+
